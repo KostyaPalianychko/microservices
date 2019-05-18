@@ -1,0 +1,7 @@
+FROM alpine-jdk:base
+MAINTAINER javaonfly
+RUN apk --no-cache add netcat-openbsd
+COPY files/EmployeeDashBoardService.jar /opt/lib/
+COPY EmployeeDashBoard-entrypoint.sh /opt/bin/EmployeeDashBoard-entrypoint.sh
+RUN chmod 755 /opt/bin/EmployeeDashBoard-entrypoint.sh
+EXPOSE 8081

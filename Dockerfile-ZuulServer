@@ -1,0 +1,6 @@
+FROM alpine-jdk:base
+MAINTAINER Kostiantyn Palianychko
+COPY files/ZuulService.jar /opt/lib/
+ENTRYPOINT ["/usr/bin/java"]
+CMD ["-jar", "/opt/lib/ZuulService.jar"]
+EXPOSE 8084

@@ -1,0 +1,9 @@
+FROM alpine-jdk:base
+MAINTAINER Kostiantyn Palianychko
+COPY files/MicroserviceConfigServer.jar /opt/lib/
+RUN mkdir /var/lib/centralProperties
+COPY centralProperties /var/lib/centralProperties
+ENTRYPOINT ["/usr/bin/java"]
+CMD ["-jar", "/opt/lib/MicroserviceConfigServer.jar"]
+VOLUME /var/lib/centralProperties
+EXPOSE 9090
