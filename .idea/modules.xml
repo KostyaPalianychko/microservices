@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EmployeeDashBoardService/EmployeeDashBoardService.iml" filepath="$PROJECT_DIR$/EmployeeDashBoardService/EmployeeDashBoardService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeEurekaServer/EmployeeEurekaServer.iml" filepath="$PROJECT_DIR$/EmployeeEurekaServer/EmployeeEurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeSearchService/EmployeeSearchService.iml" filepath="$PROJECT_DIR$/EmployeeSearchService/EmployeeSearchService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroserviceConfigServer/MicroserviceConfigServer.iml" filepath="$PROJECT_DIR$/MicroserviceConfigServer/MicroserviceConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulService/ZuulService.iml" filepath="$PROJECT_DIR$/ZuulService/ZuulService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices.iml" filepath="$PROJECT_DIR$/.idea/microservices.iml" />
+    </modules>
+  </component>
+</project>

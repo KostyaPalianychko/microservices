@@ -78,10 +78,30 @@ services:
             context: .
             dockerfile: Dockerfile-ZuulServer
         image: zuulserver:latest
+        entrypoint: /opt/bin/Zuul-entrypoint.sh
         expose:
             - 8084
         ports:
             - 8084:8084
+        networks:
+            - emp-network
+        links:
+            - eureka-server:eureka-server
+        depends_on:
+            - eureka-server
+        logging:
+            driver: json-file
+    PythonService:
+        container_name: python-service
+        build:
+            context: .
+            dockerfile: Dockerfile-PythonService
+        image: pythonservice:latest
+        entrypoint: /opt/bin/PythonService-entrypoint.sh
+        expose:
+            - 8082
+        ports:
+            - 8082:8082
         networks:
             - emp-network
         links:

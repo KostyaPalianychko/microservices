@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EmployeeDashBoardService" />
+        <module name="EmployeeEurekaServer" />
+        <module name="EmployeeSearchService" />
+        <module name="MicroserviceConfigServer" />
+        <module name="ZuulService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EmployeeDashBoardService" target="1.8" />
+      <module name="EmployeeEurekaServer" target="1.8" />
+      <module name="EmployeeSearchService" target="1.8" />
+      <module name="MicroserviceConfigServer" target="1.8" />
+      <module name="ZuulService" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EmployeeDashBoardService" options="-parameters" />
+      <module name="EmployeeEurekaServer" options="-parameters" />
+      <module name="EmployeeSearchService" options="-parameters" />
+      <module name="MicroserviceConfigServer" options="-parameters" />
+      <module name="ZuulService" options="-parameters" />
+    </option>
+  </component>
+</project>

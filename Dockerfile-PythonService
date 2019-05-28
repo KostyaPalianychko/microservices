@@ -1,0 +1,12 @@
+FROM ubuntu:latest
+MAINTAINER Kostiantyn Palianychko
+RUN apt update -y
+RUN apt install -y software-properties-common
+RUN apt-add-repository -y universe
+RUN apt install -y netcat
+RUN apt install -y python-pip
+COPY files/PythonMicroservice /opt/lib/PythonMicroservice
+RUN pip install -r /opt/lib/PythonMicroservice/requirements.txt
+COPY PythonService-entrypoint.sh /opt/bin/PythonService-entrypoint.sh
+RUN chmod 755 /opt/bin/PythonService-entrypoint.sh
+EXPOSE 8082

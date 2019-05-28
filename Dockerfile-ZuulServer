@@ -1,6 +1,7 @@
 FROM alpine-jdk:base
 MAINTAINER Kostiantyn Palianychko
+RUN apk --no-cache add netcat-openbsd
 COPY files/ZuulService.jar /opt/lib/
-ENTRYPOINT ["/usr/bin/java"]
-CMD ["-jar", "/opt/lib/ZuulService.jar"]
+COPY Zuul-entrypoint.sh /opt/bin/Zuul-entrypoint.sh
+RUN chmod 755 /opt/bin/Zuul-entrypoint.sh
 EXPOSE 8084

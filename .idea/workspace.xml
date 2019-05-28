@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EmployeeDashBoardService:jar" />
+      <artifact name="EmployeeEurekaServer:jar" />
+      <artifact name="EmployeeSearchService:jar" />
+      <artifact name="MicroserviceConfigServer:jar" />
+      <artifact name="ZuulService:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb6955e3-77db-47fd-be0a-f8e18357aede" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile-ZuulServer" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile-ZuulServer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEurekaServer/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEurekaServer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centralProperties/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/centralProperties/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/EmployeeDashBoardService.jar" beforeDir="false" afterPath="$PROJECT_DIR$/files/EmployeeDashBoardService.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/EmployeeEurekaServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/files/EmployeeEurekaServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/EmployeeSearchService.jar" beforeDir="false" afterPath="$PROJECT_DIR$/files/EmployeeSearchService.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/MicroserviceConfigServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/files/MicroserviceConfigServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/PythonMicroservice/eureka/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/PythonMicroservice/eureka/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/PythonMicroservice/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/PythonMicroservice/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ZuulService.jar" beforeDir="false" afterPath="$PROJECT_DIR$/files/ZuulService.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmployeeDashBoardService_jar/EmployeeDashBoardService.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmployeeDashBoardService_jar/EmployeeDashBoardService.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmployeeEurekaServer_jar/EmployeeEurekaServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmployeeEurekaServer_jar/EmployeeEurekaServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmployeeSearchService_jar/EmployeeSearchService.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmployeeSearchService_jar/EmployeeSearchService.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MicroserviceConfigServer_jar/MicroserviceConfigServer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MicroserviceConfigServer_jar/MicroserviceConfigServer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ZuulService_jar/ZuulService.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ZuulService_jar/ZuulService.jar" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/EmployeeSearchService/target/" />
+    <ignored path="$PROJECT_DIR$/EmployeeEurekaServer/target/" />
+    <ignored path="$PROJECT_DIR$/MicroserviceConfigServer/target/" />
+    <ignored path="$PROJECT_DIR$/EmployeeDashBoardService/target/" />
+    <ignored path="$PROJECT_DIR$/ZuulService/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/EmployeeSearchServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeEurekaServer/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="732">
+              <caret line="110" column="16" lean-forward="true" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/src/main/java/com/example/MicroserviceConfigServer/ConfigServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeDashBoard-entrypoint.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>demo</find>
+      <find>employeeUI</find>
+      <find>main</find>
+      <find>service.employyesearch</find>
+      <find>8888</find>
+      <find>hystrix</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/EmployeeEurekaServer/src/main/java/com/example/demo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EmployeeEurekaServer/src/main/java/com/example/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/EmployeeEurekaServer/src/main/java/com/example/EmployeeEurekaServer/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/centralProperties/application.properties" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/MicroserviceConfigServer/EmployeeSearchServiceApplication.java" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/controller/EmployeeSearchController.java" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService.java" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/java/EmployeeSearchController.java" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/domain/model/Employee.java" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/EmployeeSearchServiceApplication.java" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/service/EmployeeSearchService.java" />
+        <option value="$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/domain/model/EmployeeInfo.java" />
+        <option value="$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/controller/EmployeeServiceProxy.java" />
+        <option value="$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/EmployeeDashBoardService.java" />
+        <option value="$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/EmployeeDashBoardServiceApplication.java" />
+        <option value="$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/controller/FeignEmployeeInfoController.java" />
+        <option value="$PROJECT_DIR$/ZuulService/src/main/java/com/example/ZuulService/ZuulServiceApplication.java" />
+        <option value="$PROJECT_DIR$/MicroserviceConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeEurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeDashBoardService/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/pom.xml" />
+        <option value="$PROJECT_DIR$/ZuulService/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroserviceConfigServer/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/ZuulService/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/EmployeeDashBoardService/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/EmployeeEurekaServer/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/EmployeeSearchService/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/Dockerfile-ZuulServer" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/PythonService-entrypoint.sh" />
+        <option value="$PROJECT_DIR$/Zuul-entrypoint.sh" />
+        <option value="$PROJECT_DIR$/Dockerfile-PythonService" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeDashBoardService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeDashBoardService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeDashBoardService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeEurekaServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeEurekaServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeSearchService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeSearchService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmployeeSearchService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MicroserviceConfigServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MicroserviceConfigServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ZuulService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ZuulService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="833" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeDashBoardService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeEurekaServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeEurekaServer" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeEurekaServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeEurekaServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeEurekaServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeSearchService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeSearchService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeSearchService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeSearchService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeSearchService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeSearchService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeSearchService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroserviceConfigServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroserviceConfigServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroserviceConfigServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroserviceConfigServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroserviceConfigServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroserviceConfigServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroserviceConfigServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="ZuulService" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558374827060" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EmployeeSearchService/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EmployeeDashBoardService">
+    <configuration name="ConfigServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MicroserviceConfigServer.ConfigServer" />
+      <module name="MicroserviceConfigServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.MicroserviceConfigServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MicroserviceConfigServer.ConfigServer" />
+      <module name="MicroserviceConfigServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.MicroserviceConfigServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDashBoardService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.EmployeeDashBoardService.EmployeeDashBoardService" />
+      <module name="EmployeeDashBoardService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.EmployeeDashBoardService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeEurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.EmployeeEurekaServer.EmployeeEurekaServerApplication" />
+      <module name="EmployeeEurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.EmployeeEurekaServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeSearchServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.EmployeeSearchService.EmployeeSearchServiceApplication" />
+      <module name="EmployeeSearchService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.EmployeeSearchService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ZuulService.ZuulServiceApplication" />
+      <module name="ZuulService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ZuulService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmployeeDashBoardService" />
+        <item itemvalue="Application.EmployeeSearchServiceApplication" />
+        <item itemvalue="Application.ZuulServiceApplication" />
+        <item itemvalue="Application.EmployeeEurekaServerApplication" />
+        <item itemvalue="Application.ConfigServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb6955e3-77db-47fd-be0a-f8e18357aede" name="Default Changelist" comment="" />
+      <created>1557871327475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557871327475</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="833" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.65587044" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24696356" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928476" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32928476" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.05293276" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EmployeeEurekaServer/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centralProperties/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/controller/EmployeeSearchController.java" />
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchController" />
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchControlle.java" />
+    <entry file="file://$PROJECT_DIR$/centralProperties/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/EmployeeSearchController.java" />
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/EmployeeDashBoardServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeEurekaServer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/MicroserviceConfigServer.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/HELP.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/EmployeeDashBoard.properties" />
+    <entry file="file://$PROJECT_DIR$/ZuulService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1237">
+          <caret line="99" column="25" lean-forward="true" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeEurekaServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulService/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulService/src/main/java/com/example/ZuulService/ZuulServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeEurekaServer/src/main/java/com/example/EmployeeEurekaServer/EmployeeEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/domain/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/controller/EmployeeSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/service/EmployeeSearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/controller/EmployeeServiceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/domain/model/EmployeeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/EmployeeDashBoardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/src/main/java/com/example/EmployeeDashBoardService/controller/FeignEmployeeInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoardService/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile-EmployeeDashboard">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile-EmployeeSearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile-ZuulServer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearch-entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zuul-entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile-PythonService">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonService-entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile-configserver">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile-EurekaServer">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDashBoard-entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeEurekaServer/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroserviceConfigServer/src/main/java/com/example/MicroserviceConfigServer/ConfigServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeSearchService/src/main/java/com/example/EmployeeSearchService/EmployeeSearchServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="110" column="16" lean-forward="true" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>ZuulService:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>EmployeeDashBoardService</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
